@@ -4,7 +4,7 @@
 <head>
     <title>Modification d'Annonce</title>
     <?php require './serveur/head.php';?>
-    <link rel="stylesheet" type="text/css" href="CSS/disposer_annonce.css">
+    <link rel="stylesheet" type="text/css" href="CSS/deposer_annonce.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <style>
       input::-webkit-outer-spin-button,

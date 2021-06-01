@@ -103,11 +103,11 @@
 
             $.ajax({
               type: "POST",
-              url: "serveur/disposer_annonce_serv.php",
+              url: "serveur/deposer_annonce_serv.php",
               data: formData,
               encode: true,
             }).done(function (data) {
-              if(data==" ") window.location.href = "disposer_images.php";
+              if(data==" ") window.location.href = "deposer_images.php";
               console.log(data+"linn");
               data_list=data.split("  ");
 

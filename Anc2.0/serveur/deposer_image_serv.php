@@ -1,7 +1,7 @@
 <?php
   session_start();
     if(@$_SESSION["valider"]!="true"){
-      header("location:disposer_annonce.php");
+      header("location:deposer_annonce.php");
       exit();
     }
    $bd=@mysqli_connect("localhost","root","","sakankbdd") or die("Erreur de connexion");
@@ -24,7 +24,7 @@
           mysqli_query($bd,"insert into images values ('','$id_offre','$album[$k]')");
         }
       }
-      $_SESSION["valider2"]="true";
+      $_SESSION["valider"]="false";
       header("location:success_page.php");
     }
 ?>

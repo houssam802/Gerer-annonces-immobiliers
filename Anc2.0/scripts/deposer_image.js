@@ -114,7 +114,7 @@ $(document).ready(function(){
       sessionStorage.setItem('reloaded','yes');
       clicked=false;
       $(document).ready(function(){
-        $("#disposer").on("click", function () {
+        $("#deposer").on("click", function () {
             clicked = true;
         });
       });

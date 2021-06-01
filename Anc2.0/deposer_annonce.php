@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Disposer Annonce</title>
+    <title>deposer Annonce</title>
     <?php require './serveur/head.php';?>
-    <link rel="stylesheet" type="text/css" href="CSS/disposer_annonce.css">
+    <link rel="stylesheet" type="text/css" href="CSS/deposer_annonce.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="./scripts/disposer_annonce.js" defer></script>
+    <script src="./scripts/deposer_annonce.js" defer></script>
     <style>
       input::-webkit-outer-spin-button,
       input::-webkit-inner-spin-button {

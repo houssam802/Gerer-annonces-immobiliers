@@ -3,7 +3,6 @@
   $id= $_SESSION['indice'];
     if(@$_SESSION["modifier"]!="true"){
       header("location:Modifier_annonce.php");
-      echo $_SESSION["valider"];
       exit();
     }
    $bd=@mysqli_connect("localhost","root","","sakankbdd") or die("Erreur de connexion");

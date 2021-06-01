@@ -1,7 +1,7 @@
 <?php
   session_start();
     if(@$_SESSION["valider2"]!="true" && @$_SESSION["valider"]!="true"){
-      header("location:disposer_annonce.php");
+      header("location:deposer_annonce.php");
       $_SESSION["valider"]!="false";
       $_SESSION["valider2"]!="false";
       exit();

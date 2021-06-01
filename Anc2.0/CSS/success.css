@@ -1,0 +1,233 @@
+/*Downloaded from https://www.codeseek.co/istiaktridip/success-check-animation-css-BZqaOd */
+.check_mark {
+  margin: 0 39%;
+}
+.hide{
+  display:none;
+}
+
+.sa-icon {
+  width: 180px;
+  height:180px;
+  border: 4px solid gray;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.sa-icon.sa-success {
+  border-color: #4CAF50;
+}
+
+.sa-icon.sa-success .sa-placeholder {
+  width: 180px;
+  height: 180px;
+  border: 4px solid rgba(76, 175, 80, .5);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: 2;
+}
+
+
+.sa-placeholder{
+  -webkit-animation: rotatePlaceholder 1.3s ease-in;
+  animation: rotatePlaceholder 1.3s ease-in;
+}
+
+.sa-icon.sa-success {
+  border-color: transparent/9;
+}
+.sa-icon.sa-success .sa-line.sa-tip {
+  -ms-transform: rotate(45deg) \9;
+}
+.sa-icon.sa-success .sa-line.sa-long {
+  -ms-transform: rotate(-45deg) \9;
+}
+
+.animateSuccessTip {
+  -webkit-animation: animateSuccessTip 1.5s;
+  animation: animateSuccessTip 1.5s;
+}
+
+.animateSuccessLong {
+  -webkit-animation: animateSuccessLong 1.5s;
+  animation: animateSuccessLong 1.5s;
+}
+
+@-webkit-keyframes animateSuccessLong {
+  0% {
+    width: 0;
+    right: 103.5px;
+    top: 121.5px;
+  }
+  65% {
+    width: 0;
+    right: 104px;
+    top: 121px;
+  }
+  84% {
+    width: 123.75px;
+    right: -4px;
+    top: 79px;
+  }
+  100% {
+    width: 106px;
+    right: 12px;
+    top: 86px;
+  }
+}
+@-webkit-keyframes animateSuccessTip {
+  0% {
+    width: 0;
+    left: 2.25px;
+    top: 42.75px;
+  }
+  54% {
+    width: 0;
+    left: 0px;
+    top: 42.75px;
+  }
+  70% {
+    width: 108px;
+    left: -12px;
+    top: 85px;
+  }
+  84% {
+    width: 38.25px;
+    left: 47.25px;
+    top: 108px;
+  }
+  100% {
+    width: 57px;
+    left: 31.5px;
+    top: 103.5px;
+  }
+}
+@keyframes animateSuccessTip {
+  0% {
+    width: 0;
+    left: 2.25px;
+    top: 42.75px;
+  }
+  54% {
+    width: 0;
+    left: 0px;
+    top: 42.75px;
+  }
+  70% {
+    width: 108px;
+    left: -12px;
+    top: 85px;
+  }
+  84% {
+    width: 38.25px;
+    left: 47.25px;
+    top: 108px;
+  }
+  100% {
+    width: 57px;
+    left: 31.5px;
+    top: 103.5px;
+  }
+}
+
+@keyframes animateSuccessLong {
+  0% {
+    width: 0;
+    right: 103.5px;
+    top: 121.5px;
+  }
+  65% {
+    width: 0;
+    right: 104px;
+    top: 121px;
+  }
+  84% {
+    width: 123.75px;
+    right: -4px;
+    top: 79px;
+  }
+  100% {
+    width: 106px;
+    right: 12px;
+    top: 86px;
+  }
+}
+
+.sa-icon.sa-success .sa-line {
+  height: 5px;
+  background-color: #4CAF50;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.sa-icon.sa-success .sa-line.sa-tip {
+  width: 57px;
+    left: 31.5px;
+    top: 103.5px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sa-icon.sa-success .sa-line.sa-long {
+     width: 106px;
+    right: 12px;
+    top: 86px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+@-webkit-keyframes rotatePlaceholder {
+  0% {
+   border-color:rgba(200,200,200,1);
+  }
+  50% {
+   border-color:rgba(200,200,200,0.5);
+  }
+  100% {
+   border-color:rgba(76, 175, 80,0.7);
+  }
+}
+@keyframes rotatePlaceholder {
+  0% {
+   border-color:rgba(200,200,200,1);
+  }
+  50% {
+   border-color:rgba(200,200,200,0.5);
+  }
+  100% {
+   border-color:rgba(76, 175, 80,0.7);
+  }
+}
+
+.text{
+  margin:30px 0;
+  text-align: center;
+  animation: textSuccess 1.5s;
+}
+
+@keyframes textSuccess {
+  0% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 0;
+  }
+  75% {
+   opacity: 0;
+  }
+  100% {
+   opacity: 1;
+  }
+}

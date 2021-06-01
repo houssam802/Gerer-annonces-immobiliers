@@ -5,4 +5,5 @@ Réaliser une Tâche d’une application web spécialisé dans la vente, la loca
 
 Tâche : Placer une annonce sur le site, modifier-la et la supprimer .
 
-Note : Toutes les annonces ,traitées et ajoutées, sont d'un seul utilisateur (id = 1) . 
+Note :  -Toutes les annonces ,traitées et ajoutées, sont d'un seul utilisateur (id = 1) . 
+        -poser le répertoire (Anc2.0) directement dans (htdocs).

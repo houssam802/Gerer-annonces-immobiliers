@@ -1,9 +1,9 @@
 # Gerer-annonces-immobiliers
 
 
-Réaliser une Tâche d’une application web spécialisé dans la vente, la location et l'achat de biens immobiliers (villas, appartements, maisons, bureaux et surfaces) aux Maroc .
+Carry out a task of a web application specializing in the sale, rental and purchase of real estate (villas, apartments, houses, offices and surfaces) in Morocco.
 
-Tâche : Placer une annonce sur le site, modifier-la et la supprimer .
+Task: Place an ad on the application, edit it and remove it.
 
-Note :  -Toutes les annonces ,traitées et ajoutées, sont d'un seul utilisateur (id = 1) . 
-        -poser le répertoire (Anc2.0) directement dans (htdocs).
+Note: -All ads, processed and added, are of a single user (id = 1). 
+        -Place the directory (Anc2.0) directly in (htdocs).
